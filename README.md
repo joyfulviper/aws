@@ -17,7 +17,7 @@
 - AWS로 구축한 서비스의 모니터링 수행
 # 보안, 자격 증명 및 규정 준수
 ## Identity and Access Management (IAM)
-- AWS의 리소스를 사용하기 위한 사용자 및 권한을 설정
+- [AWS의 리소스를 사용하기 위한 사용자 및 권한을 설정](https://github.com/joyfulviper/aws/blob/master/%EB%B3%B4%EC%95%88/IAM.md)
 ## Certificate Manager
 - SSL 서버 증명서 관리
 # 네트워킹 및 컨텐츠 전송
