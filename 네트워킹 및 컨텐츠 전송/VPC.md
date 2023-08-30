@@ -1,4 +1,4 @@
-<img src="https://github.com/joyfulviper/aws/assets/79970349/a3808646-a70c-4ac3-9385-570939ad345a" width="500" height="300">
+<img src="https://github.com/joyfulviper/aws/assets/79970349/19755058-2fd2-4c35-aed0-21f2e85d471b" width="500" height="300">
 
 
 - 네트워크: 인프라스트럭처 관리자가 주체가 되어 관리하는 저장소
@@ -97,10 +97,10 @@
 |VPC 피어링|접속을 허가한 다른 VPC상의 리소스와 통신|
 
 **라우팅 연결 전**<br>
-<img src="https://github.com/joyfulviper/aws/assets/79970349/da95a7da-76d3-42b5-82f5-91617ebf25d5" width="500" height="300">
+<img src="https://github.com/joyfulviper/aws/assets/79970349/79206a2b-ce57-4c1f-b1ac-e8b2ffa059f2" width="500" height="300">
 <br><br>
 **라우팅 연결 후**<br>
-<img src="https://github.com/joyfulviper/aws/assets/79970349/843d5fe4-6a69-434b-b9e8-016c98c5bb13" width="500" height="300">
+<img src="https://github.com/joyfulviper/aws/assets/79970349/4e67c695-d499-4efb-a71f-e5bdfd2eaffb" width="500" height="300">
 
 ## 보안 그룹
 - VPC 내의 리소스를 보호하기 위해 외부로부터 접근에 제한을 걸어 두는 기능
@@ -119,7 +119,7 @@
 - 다음으로 EC2 인스턴스를 생성한다.
 - AMI(Amazon Machine Image)는 AWS가 추천하는 AMI나 AMI-Kernal 5.10, SSD Volume Type을 선택한다.
 - 적절한 인스턴스 유형을 생성한다.
-- 네트워크 설정에서 퍼블릭 IP 자동 할당을 활성화, 네트워크는 앞서 작성한 VPC, 서브넷은 앞서 작성한 public01로 설정, 보안 그룹은 앞서 작성한 점프 서버용 보안그룹인 sample-sg-bastion을 설정한다.
+- 네트워크 설정에서 퍼블릭 IP 자동 할당을 활성화, 네트워크는 앞서 작성한 VPC, 서브넷은 앞서 작성한 public01로 설정, 보안 그룹은 앞서 작성한 점프 서버용 보안그룹인 sample-sg-bastion(외부와 통신을 위해), default 보안그룹(VPC 내부 서브넷과 통신하기 위해)을 설정한다.
 - 스토리지도 적절한 스토리지를 설정한다.
 - 키 페어는 위에서 생성한 키 페어로 설정하고 EC2 인스턴스를 생성한다.
 
