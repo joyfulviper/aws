@@ -6,7 +6,7 @@
 
 # 스토리지
 ## S3
-- [대량의 데이터를 안전하게 보존하는 저장소](https://github.com/joyfulviper/aws/blob/master/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80/S3)
+- [대량의 데이터를 안전하게 보존하는 저장소](https://github.com/joyfulviper/aws/blob/master/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80/S3.md)
 # 데이터베이스
 ## ElasticCache
 - 레디스나 멤케시드 등 캐시 서비스를 작동하는 서버
