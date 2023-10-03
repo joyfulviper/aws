@@ -11,7 +11,7 @@
 ## ElasticCache
 - 레디스나 멤케시드 등 캐시 서비스를 작동하는 서버
 ## RDS
-- MySQL이나 Oracle 등 데이터베이스를 작동하는 서버
+- [MySQL이나 Oracle 등 데이터베이스를 작동하는 서버](https://github.com/joyfulviper/aws/blob/master/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/RDS.md)
 # 관리
 ## CloudWatch
 - AWS로 구축한 서비스의 모니터링 수행
