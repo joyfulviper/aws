@@ -3,7 +3,6 @@
 # 컴퓨팅
 ## EC2
 - 리눅스나 윈도우 등을 작동하는 서버
-
 # 스토리지
 ## S3
 - [대량의 데이터를 안전하게 보존하는 저장소](https://github.com/joyfulviper/aws/blob/master/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80/S3.md)
@@ -19,12 +18,12 @@
 ## Identity and Access Management (IAM)
 - [AWS의 리소스를 사용하기 위한 사용자 및 권한을 설정](https://github.com/joyfulviper/aws/blob/master/%EB%B3%B4%EC%95%88/IAM.md)
 ## Certificate Manager
-- SSL 서버 증명서 관리
+- [SSL 서버 증명서 관리](https://github.com/joyfulviper/aws/blob/master/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%20%EB%B0%8F%20%EC%BB%A8%ED%85%90%EC%B8%A0%20%EC%A0%84%EC%86%A1/Route53.md)
 # 네트워킹 및 컨텐츠 전송
 ## Elastic Load Balancing
 - 대량의 요청을 효율적으로 받는 시스템
 ## Route 53
-- 인터넷에서의 도메인명 해결을 수행하는 시스템
+- [인터넷에서의 도메인명 해결을 수행하는 시스템](https://github.com/joyfulviper/aws/blob/master/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%20%EB%B0%8F%20%EC%BB%A8%ED%85%90%EC%B8%A0%20%EC%A0%84%EC%86%A1/Route53.md)
 ## VPC
 - [가상 네트워크 인프라스트럭처 구축](https://github.com/joyfulviper/aws/blob/master/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%20%EB%B0%8F%20%EC%BB%A8%ED%85%90%EC%B8%A0%20%EC%A0%84%EC%86%A1/VPC.md)
 # 고객 참여
